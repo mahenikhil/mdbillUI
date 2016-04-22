@@ -2,9 +2,23 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="css/bootstrap.css"></link>
+<link rel="stylesheet" href="css/ui-grid-min.css"></link>
+<script type="text/javascript" src="js/lib/angular.js"></script>
+<script type="text/javascript" src="js/lib/angular-resource.js"></script>
+<script type="text/javascript" src="js/lib/angular-route.js"></script>
+<script type="text/javascript" src="js/lib/ui-bootstrap-tpls-0.13.4.min.js"></script>
+<script type="text/javascript" src="js/lib/ui-grid-min.js"></script>
+
+<script type="text/javascript" src="js/controller.js"></script>
 <title>MDBill</title>
 </head>
-<body>
-Hello MDBill
+
+<body ng-app='ClaimApp'>
+	<div ng-controller='ClaimController'>
+	
+	<div ui-grid="claimGrid"></div>
+	</div>
+	
 </body>
 </html>
