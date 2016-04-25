@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>MedBills : Dashboard-Physician</title>
+    <title>MedBills : Dashboard-Checker</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,7 +39,7 @@
 					<li><a href="#">Contact Us</a></li>				  
 				  </ul>-->				 
 				  <ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Dr. Mohan Rathi</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nikhil Maheshwari</a></li>
 					<li class="dropdown">
 					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span class="caret"></span></a>
 					  <ul class="dropdown-menu">
@@ -61,9 +61,8 @@
 				<h3>Dashboard</h3>
 				<div class="jumbotron jumbotron-search-table">
 					<div class="row search">
-						<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
-							<h3 class="mrg-top-bottom-5"><span class="label label-primary">Physician view</span></h3>
-							
+						<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+							<h3 class="mrg-top-bottom-5"><span class="label label-primary">Checker's view</span></h3>							
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6">
 							<div id="custom-search-input">
@@ -77,9 +76,6 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
-							<h3 class="mrg-top-bottom-5 txt-center"><span class="label label-info">New Claim</span></h3>
-						</div>
 					</div>
 					
 					<div class="table-responsive search-table">
@@ -89,9 +85,9 @@
 								   <th data-sortable="true"># ID</th>
 								   <th data-sortable="true">Code</th>
 								   <th data-sortable="true">Patient Name</th>
+								   <th data-sortable="true">Physician Name</th>
 								   <th data-sortable="true">Location</th>
-								   <th data-sortable="true">Hospital</th>
-								   <th data-sortable="true">Amount</th>
+								   <th data-sortable="true">Bill Date</th>
 								   <th data-sortable="true">Status</th>								   
 								   <th data-sortable="true" data-sort-name="_date_data" data-sorter="monthSorter">Visited Date</th>
 								   <th>Action</th>
@@ -102,9 +98,9 @@
 									<td>101</td>
 									<td>98235</td>
 									<td>Michael Jayden</td>
+									<td>Dr. Rudolph J. Schrot</td>
 									<td>Lantana, Palm Beach</td>
-									<td>A.G. Holley State Hospital</td>
-									<td>$342.00</td>
+									<td>15 Apr 2016</td>
 									<td>Draft</td>
 									<td>15 Apr 2016</td>
 									<td><p data-placement="top" data-toggle="tooltip" title="" data-original-title="Edit">
@@ -124,9 +120,9 @@
 									<td>102</td>
 									<td>98234</td>
 									<td>Mohsin Irshad</td>
+									<td>Dr. Jared Ennis</td>
 									<td>Pensacola, Escambia</td>
-									<td>Baptist Hospital</td>
-									<td>$540.00</td>
+									<td>14 Apr 2016</td>
 									<td>Submitted</td>
 									<td>14 Apr 2016</td>
 									<td><p data-placement="top" data-toggle="tooltip" title="" data-original-title="Edit">
@@ -146,9 +142,9 @@
 									<td>103</td>
 									<td>98235</td>
 									<td>John Ethan</td>
+									<td>Dr. Mohan Rathi</td>
 									<td>Lantana, Palm Beach</td>
-									<td>Cape Coral Hospital</td>
-									<td>$342.00</td>
+									<td>15 Apr 2016</td>
 									<td>Checked</td>
 									<td>15 Apr 2016</td>
 									<td><p data-placement="top" data-toggle="tooltip" title="" data-original-title="Edit">
@@ -168,9 +164,9 @@
 									<td>104</td>
 									<td>98231</td>
 									<td>Jacob Ethan</td>
+									<td>Dr. A. Creig MacArthur</td>
 									<td>St. Petersburg, Pinellas</td>
-									<td>Baptist Hospital</td>
-									<td>$452.00</td>
+									<td>12 Apr 2016</td>
 									<td>Billed</td>
 									<td>12 Apr 2016</td>
 									<td><p data-placement="top" data-toggle="tooltip" title="" data-original-title="Edit">
@@ -190,9 +186,9 @@
 									<td>105</td>
 									<td>98230</td>
 									<td>Matthew Ryan</td>
+									<td>Dr. M. Jake Carlson</td>
 									<td>Panama City, Bay</td>
-									<td>A.G. Holley State Hospital</td>
-									<td>$1048.00</td>
+									<td>10 Apr 2016</td>
 									<td>Paid</td>
 									<td>10 Apr 2016</td>
 									<td><p data-placement="top" data-toggle="tooltip" title="" data-original-title="Edit">
@@ -212,9 +208,9 @@
 									<td>106</td>
 									<td>98234</td>
 									<td>Alexander Logan</td>
+									<td>Dr. Lisa Lilienfield</td>
 									<td>Jacksonville Beach, Duval</td>
-									<td>Baptist Medical Center Beaches</td>
-									<td>$540.00</td>
+									<td>10 Apr 2016</td>
 									<td>Paid</td>
 									<td>10 Apr 2016</td>
 									<td><p data-placement="top" data-toggle="tooltip" title="" data-original-title="Edit">

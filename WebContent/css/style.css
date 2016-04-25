@@ -1,0 +1,66 @@
+/* CSS Document */
+
+#nav .navbar {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.jumbotron-login {
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 25%;
+    min-height: 200px;
+	background-color:#F5F5F5
+}
+.jumbotron p {margin-bottom:5px;}
+.jumbotron-search-table
+{
+	padding:2% !important;
+}
+.fixed-table-container thead th .th-inner, .fixed-table-container tbody td .th-inner {padding:0px;}
+.bootstrap-table .table thead > tr > th {padding:5px 0px;}
+.mrg-top-bottom-5 {margin-bottom:5px; margin-top:5px;}
+.txt-center {text-align:center;}
+.search {
+	min-height: 4em;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    padding: 8px;
+    background-color: #fefefe;
+	margin-right: 0px;
+    margin-left: 0px;
+}
+.search-table {
+    border: 2px solid #fff;
+    margin: 7px 0px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.action{
+	list-style:none;
+	font-size:12px;
+}
+.action ul li{
+    position: relative;
+    float: left;
+    width: 10px;
+	}
+@media screen and (min-width: 1200px){
+	.container {
+		width: 1080px;
+		margin-top:30px;
+	}
+}
+@media screen and (min-width: 768px){
+	#nav .navbar {
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 1024px){
+	.container {
+		width: 100%;
+		margin-top:30px;
+	}
+}
