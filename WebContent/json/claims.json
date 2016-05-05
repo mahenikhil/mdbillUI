@@ -1,0 +1,61 @@
+[{
+	"claimId":"101",
+	"billingCode":"98303",
+	"patientName":"John Stacy",
+	"location":"Outstation",
+	"hospital":"A.G. Holley State Hospital",
+	"amount":"340",
+	"physicianName":"Mohan Rathi",
+	"visitDate":"04-Apr-2016",	
+	"currentStatus":"SUBMITTED",
+	"Insurance":"Bajaj Allianz"
+},
+{
+	"claimId":"102",
+	"billingCode":"98323",
+	"patientName":"Michael Jayden",
+	"location":"Outstation",
+	"hospital":"A.G. Holley State Hospital",
+	"amount":"240",
+	"physicianName":"Mohan Rathi",
+	"visitDate":"04-May-2016",	
+	"currentStatus":"DRAFT",
+	"Insurance":"Bajaj Allianz"
+},
+{
+	"claimId":"103",
+	"billingCode":"98234",
+	"patientName":"Mohsin Irshad",
+	"location":"Pensacola, Escambia",
+	"hospital":"Baptist Hospital",
+	"amount":"540",
+	"physicianName":"Mohan Rathi",
+	"visitDate":"14-Apr-16",
+	"currentStatus":"Submitted",
+	"Insurance":"Bajaj Allianz"
+},
+{
+	"claimId":"104",
+	"billingCode":"98323",
+	"patientName":"Michael Jayden",
+	"location":"Outstation",
+	"hospital":"A.G. Holley State Hospital",
+	"amount":"240",
+	"physicianName":"Mohan Rathi",
+	"visitDate":"04-May-2016",	
+	"currentStatus":"DRAFT",
+	"Insurance":"Bajaj Allianz"
+},
+{
+	"claimId":"105",
+	"billingCode":"98235",
+	"patientName":"John Ethan",
+	"location":"Lantana, Palm Beach",
+	"hospital":"Cape Coral Hospital",
+	"amount":"342",
+	"physicianName":"Moha Rathi",
+	"visitDate":"04-May-2016",
+	"currentStatus":"Checked",
+	"Insurance":"Bajaj Allianz"
+}
+]

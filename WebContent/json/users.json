@@ -1,0 +1,24 @@
+[{
+ "name":"Nikhil Maheshwari",
+ "email":"mahenikhil@gmail.com",
+ "password":"nikhil@123",
+ "role":"CHECKER"
+},
+{
+ "name":"Mohan  Rathi",
+ "email":"rathibm@gmail.com",
+ "password":"mohan@123",
+ "role":"PHYSICIAN"
+},
+{
+ "name":"Sanjeev Sharma",
+ "email":"sanjeevbr20@yahoo.com",
+ "password":"sanjeev@123",
+ "role":"MEDICAL INTERMEDIARY"
+},
+{
+ "name":"Pradip",
+ "email":"pradip@gmail.com",
+ "password":"pradip@123",
+ "role":"ADMIN"
+}]
